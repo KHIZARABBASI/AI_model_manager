@@ -1,0 +1,31 @@
+# Dependencies
+frontend/node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+
+# Build and test output
+frontend/.next/
+frontend/coverage/
+backend/build/
+backend/dist/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local application data
+data/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
